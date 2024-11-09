@@ -1,6 +1,10 @@
 <?php
 auth_reauthenticate();
 access_ensure_global_level( 90 );
+$t_curuser	= auth_get_current_user_id();
+if ( $t_curuser <> plugin_config_get( 'allowed_user' ) ){
+	return;
+}
 layout_page_header( plugin_lang_get( 'title' ) );
 layout_page_begin();
 print_manage_menu();
@@ -87,5 +91,4 @@ if ( ON == plugin_config_get( 'update_files' ) ) {
 </div>
 </div>
 <?php
-
 layout_page_end();
