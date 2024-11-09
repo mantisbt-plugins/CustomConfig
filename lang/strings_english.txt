@@ -1,0 +1,12 @@
+<?php
+$s_plugin_CustomConfig_title       	= "CustomConfig";
+$s_plugin_CustomConfig_description	= "View/Modify Custom Config files from within the GUI";
+$s_plugin_CustomConfig_Custom      	= "CustomConfig";
+$s_plugin_CustomConfig_maintain     	= "Maintain";
+$s_plugin_CustomConfig_update      	= "Create/update file(s)";
+
+$s_plugin_CustomConfig_Yes	= "Yes";
+$s_plugin_CustomConfig_No	= "No";
+$s_plugin_CustomConfig_user	= "Select user which can access/change this data";
+$s_plugin_CustomConfig_config       	= "configuration";
+$s_plugin_CustomConfig_update_files      	= "Allow file(s) to be updated";
